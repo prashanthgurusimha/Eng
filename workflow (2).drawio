@@ -1,0 +1,434 @@
+<mxfile host="app.diagrams.net" modified="2023-04-08T13:56:57.090Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="4cQbj7drpXQQS5doAlOd" version="21.1.5" type="device">
+  <diagram name="Page-1" id="eFChfph1INOUIxKzwDbk">
+    <mxGraphModel dx="1219" dy="2813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-92" target="fpyDUGGiXaEMiH24qcTl-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-92" value="START" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-750" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-95">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="-720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-95">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="272" y="-870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-95" value="RPC ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-775" width="144" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-97">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="608" y="-600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-97" value="Decide Primary firm" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="536" y="-775" width="144" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-99" target="fpyDUGGiXaEMiH24qcTl-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-99" value="Greet and Introduction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="382.13" y="-750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="fpyDUGGiXaEMiH24qcTl-141">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="668" y="-570" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-101" value="No Firm Qualified" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="-820" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-102" value="Qualified firm&lt;br&gt;1...n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="615" y="-670" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="fpyDUGGiXaEMiH24qcTl-105">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="608" y="-870" as="targetPoint" />
+            <mxPoint x="610" y="-780" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="610" y="-840" />
+              <mxPoint x="610" y="-840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-105">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="-910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-105" value="Disqualified" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="550" y="-940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-108" target="fpyDUGGiXaEMiH24qcTl-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-108">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="839" y="-910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-108" value="Check for Exposure&lt;br&gt;Basic" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="767" y="-775" width="144" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-111" target="fpyDUGGiXaEMiH24qcTl-105">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="706" y="-910" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1037" y="-910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-111">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160" y="-720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-111" value="Attorney &lt;br&gt;represented &lt;br&gt;you for this matter&lt;br&gt;&amp;nbsp;in the past" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="965" y="-775" width="144" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-112" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1033" y="-805" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-113" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="897" y="-705" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-114" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="837" y="-795" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-115" value="Additional Questions based on Tort, Firm" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="790" y="-600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-116" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="838.5" y="-600" as="sourcePoint" />
+            <mxPoint x="838.5" y="-665" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="838.5" y="-635" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-119">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440" y="-720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-119">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="-910" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1232" y="-910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-119" value="Check Basic &lt;br&gt;Diagnosis Criteria" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="1159" y="-775" width="144" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-120" value="Diagnosis after usage start date (earliest)&lt;br style=&quot;caret-color: rgb(0, 0, 0); font-size: 14px; text-align: start;&quot;&gt;&lt;span style=&quot;caret-color: rgb(0, 0, 0); font-size: 14px; text-align: start;&quot;&gt;Diagnosis after usage end date (latest)&lt;/span&gt;&lt;br style=&quot;caret-color: rgb(0, 0, 0); font-size: 14px; text-align: start;&quot;&gt;&lt;span style=&quot;caret-color: rgb(0, 0, 0); font-size: 14px; text-align: start;&quot;&gt;Diagnosis within last (ages of)&lt;/span&gt;&lt;br style=&quot;caret-color: rgb(0, 0, 0); font-size: 14px; text-align: start;&quot;&gt;&lt;span style=&quot;caret-color: rgb(0, 0, 0); font-size: 14px; text-align: start;&quot;&gt;Suffered harm post exposure&lt;/span&gt;&lt;br style=&quot;caret-color: rgb(0, 0, 0); font-size: 14px; text-align: start;&quot;&gt;&lt;span style=&quot;caret-color: rgb(0, 0, 0); font-size: 14px; text-align: start;&quot;&gt;Concerned about developing a medical condition&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1085.5" y="-600" width="314.5" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-121" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1231.5" y="-595" as="sourcePoint" />
+            <mxPoint x="1231.5" y="-665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-122" value="Not met" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1234" y="-795" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-123" value="Met" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="-720" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-126">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1660" y="-720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-126">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="-910" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1510" y="-910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-126" value="Check required&lt;br&gt;Injury Criteria" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="1438" y="-775" width="144" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-127" value="Not met" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1519" y="-805" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-128" value="Met" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="-720" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-130">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1850" y="-720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-130" value="Collect Specific Exposure based on firm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="-750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.452;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-132" target="fpyDUGGiXaEMiH24qcTl-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-132" value="Collect Specific Injury based on firm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2068" y="-752.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-135" target="fpyDUGGiXaEMiH24qcTl-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-135" target="fpyDUGGiXaEMiH24qcTl-149">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1922" y="-830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-135" value="Check All exposure criteria met for Firm" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1850" y="-780" width="144" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-136" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="-755" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-137" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1935" y="-810" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-139">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="-730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="725" y="-730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-139" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;B&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="705" y="-830" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-141">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="-720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="725" y="-720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-141" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;A&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="705" y="-660" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-151">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1919.5" y="-1123" as="targetPoint" />
+            <mxPoint x="1919.5" y="-1073" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1920" y="-1063" />
+              <mxPoint x="1920" y="-1063" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-143" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;B&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="-1163" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-146">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2470" y="-717" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-146" target="fpyDUGGiXaEMiH24qcTl-149">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-146" value="Check All Injury &lt;br&gt;criteria met for Firm" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2260" y="-775" width="144" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-149" target="fpyDUGGiXaEMiH24qcTl-151">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-149">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1810" y="-905" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-149" value="If A == True" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1850" y="-963" width="144" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-150" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" target="fpyDUGGiXaEMiH24qcTl-151">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1919.5" y="-1123" as="targetPoint" />
+            <mxPoint x="1919.5" y="-1073" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-151" value="Assign Firm = &lt;br&gt;fallback firm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1862" y="-1083" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-152" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="-988" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-155">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1742" y="-1013" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-155">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="-905" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-155" value="If B == True" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="-963" width="144" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-156" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="-898" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-157" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="-900" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-158" value="No&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="-998" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-159" value="Should we assign more firm ?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1682" y="-1083" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-160" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Should we assign more firm ? then make it a module to loop steps&amp;nbsp;&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#cce5ff;strokeColor=#36393d;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="-1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-161" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2390" y="-755" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-162" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="-795" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-165">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2680" y="-719" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-165">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2542" y="-870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-165" value="is called &lt;br&gt;&amp;nbsp;peson Climant" style="rhombus;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2470" y="-777.5" width="144" height="117.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-166" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2550" y="-805" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-168">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="-905" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-168" value="Thanks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="215" y="-935.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-169" value="END" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-928" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-170" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="-720" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-171" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-795" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-172" value="HELPER&lt;br&gt;Modules to Specific firms" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="814" y="-1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-173" value="STAGE 1 - Basic Criteria Evaluation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="814" y="-1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-174" value="Firm Assigning Process/Module" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="963" y="-1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-175" value="STAGE 2 -&amp;nbsp; Firm specific Validation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="963" y="-1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-176" value="STAGE 3 -&amp;nbsp;&lt;br&gt;Collect details &amp;amp; submission" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1124" y="-1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-178" target="fpyDUGGiXaEMiH24qcTl-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-178" value="Collect&amp;nbsp;Fiduciary details&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Relation with Claimant&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;is legal representation&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Documents of proof" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2470" y="-950" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-179" value="Appendix" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="988" y="-1465" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-180" value="Assign Primary Firm&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Fallback Firm" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="-600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-181" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2615" y="-710" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-183" target="fpyDUGGiXaEMiH24qcTl-195">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2870" y="-721" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-183" value="Is this emergency &lt;br&gt;contact" style="rhombus;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2680" y="-780" width="144" height="117.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-186">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2870" y="-909" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-186" target="fpyDUGGiXaEMiH24qcTl-183">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-186" value="Is Deceased" style="rhombus;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2680" y="-968" width="144" height="117.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-187" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2755" y="-860" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-188" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2825" y="-905.5" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-190" target="fpyDUGGiXaEMiH24qcTl-195">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-190" value="Collect Deceased&amp;nbsp;details&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Date, City, Death Certificate, Will etc" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2875" y="-949.25" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-191" value="Process - Need to define next" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="-1229" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-192" value="Decision Making" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="988" y="-1240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-193" value="Actions/Collection screens" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="-1229" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-195">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3090" y="-721" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-195" value="Collect Mandatory Details" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2900" y="-751.25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-197" target="fpyDUGGiXaEMiH24qcTl-199">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-197" value="Agent Notes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="3090" y="-752.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fpyDUGGiXaEMiH24qcTl-199" target="fpyDUGGiXaEMiH24qcTl-200">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-199" value="Thanks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="3270" y="-752.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpyDUGGiXaEMiH24qcTl-200" value="END" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3460" y="-752.5" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
